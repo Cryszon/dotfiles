@@ -1,0 +1,19 @@
+#
+# Cryszon's Git configuration
+#
+# @see https://github.com/Cryszon/dotfiles
+#
+# @version 1.0.0
+#
+
+[user]
+	name = Kimmo Salmela
+	email = kimmo.salmela@reun.eu
+[pull]
+	rebase = true
+[core]
+	eol = lf
+	autocrlf = input
+	editor = code --wait
+[init]
+	defaultBranch = main
