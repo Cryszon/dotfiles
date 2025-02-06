@@ -1,0 +1,11 @@
+#
+# Cryszon's Bash aliases
+#
+# @see https://github.com/Cryszon/dotfiles
+#
+# @version 1.0.0
+#
+
+# shellcheck shell=bash
+
+alias gst='git status'
