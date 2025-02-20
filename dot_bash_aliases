@@ -3,9 +3,18 @@
 #
 # @see https://github.com/Cryszon/dotfiles
 #
-# @version 1.0.0
+# @version 1.1.0
 #
 
 # shellcheck shell=bash
 
 alias gst='git status'
+
+# Creates a new tmux session with 4 equal panes and selects the bottom left one.
+tmux4() {
+  tmux new-session -d
+  tmux split-window -h
+  tmux split-window -v
+  tmux split-window -v -t 0
+  tmux attach-session -d
+}
