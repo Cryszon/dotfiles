@@ -18,3 +18,10 @@ tmux4() {
   tmux split-window -v -t 0
   tmux attach-session -d
 }
+
+# Creates a new tmux session with two windows, the latter named dev-server
+tmux2dev() {
+  tmux new-session -d
+  tmux new-window -n dev-server
+  tmux attach-session -d
+}
