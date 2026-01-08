@@ -25,3 +25,6 @@ tmux2dev() {
   tmux new-window -n dev-server
   tmux attach-session -d
 }
+
+# Custom `ll` format
+alias ll='ls -AohF --time-style=long-iso'
