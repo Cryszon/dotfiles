@@ -3,7 +3,7 @@
 #
 # @see https://github.com/Cryszon/dotfiles
 #
-# @version 1.1.0
+# @version 1.2.0
 #
 
 # shellcheck shell=bash
@@ -27,4 +27,5 @@ tmux2dev() {
 }
 
 # Custom `ll` format
-alias ll='ls -AohF --time-style=long-iso'
+# Hidden directories -> Normal directories -> Hidden files -> Normal files
+alias ll='ls -AohFv --time-style=long-iso --group-directories-first'
