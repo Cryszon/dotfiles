@@ -95,3 +95,11 @@ links to various ports I use it in:
 - [Gnome Text Editor](https://github.com/catppuccin/gnome-text-editor)
 - [btop](https://github.com/catppuccin/btop)
 - [VS Code](https://github.com/catppuccin/vscode) (automatically synced)
+
+## Additional notes
+
+### Neovim as Vim alternative
+
+```sh
+update-alternatives --config vim
+```
