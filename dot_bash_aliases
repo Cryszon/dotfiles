@@ -9,6 +9,8 @@
 # shellcheck shell=bash
 
 alias gst='git status'
+# Copy last git commit message to clipboard
+alias gclc='git log -1 --pretty=%B | xclip -selection clipboard'
 
 # Creates a new tmux session with 4 equal panes and selects the bottom left one.
 tmux4() {
